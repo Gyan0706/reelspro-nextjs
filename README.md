@@ -1,10 +1,11 @@
-# ImageKit Video Shop
+# 📹 ImageKit Video Shop
 
-A modern **Next.js** application for managing and selling video content using **ImageKit** integration. This project provides a full-featured platform with **user authentication, video upload capabilities, and payment processing using Razorpay**.
+A modern **Next.js** application for managing and selling video content using **ImageKit** integration.
+This project provides a full-featured platform with **user authentication, video upload capabilities, and payment processing using Razorpay**.
 
 ---
 
-## Features
+## ✨ Features
 
 * 🔐 **User Authentication** (NextAuth.js)
 * 📹 **Video Upload and Management** (ImageKit)
@@ -15,73 +16,67 @@ A modern **Next.js** application for managing and selling video content using **
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-* **Frontend**: Next.js 15, React 19, TypeScript
-* **Styling**: Tailwind CSS, DaisyUI
-* **Authentication**: NextAuth.js, JWT
-* **Database**: MongoDB with Mongoose
-* **File Storage**: ImageKit
-* **Form Handling**: React Hook Form
-
----
-
-## Demo Video
-
-🎬 Watch the project in action:
-
-* **YouTube / Vimeo / Local file link**: ``
-* Optionally embed using Markdown if GitHub supports preview:
-
-```markdown
-![Project Demo](https://link-to-your-video.mp4)
-```
-
-> Tip: You can record a short walkthrough of your app showing **login, upload, and video playback**.
+* ⚛️ **Frontend**: Next.js 15, React 19, TypeScript
+* 🎨 **Styling**: Tailwind CSS, DaisyUI
+* 🔑 **Authentication**: NextAuth.js, JWT
+* 🗄️ **Database**: MongoDB with Mongoose
+* ☁️ **File Storage**: ImageKit
+* 📝 **Form Handling**: React Hook Form
 
 ---
 
-## Prerequisites
+## 🎬 Demo Video
 
-* Node.js (Latest LTS version)
-* MongoDB Database
-* ImageKit Account
+Watch the project in action:
+
+https://github.com/user-attachments/assets/0136d3ae-74b3-4c54-9d8c-c5ce5832e037
+
+
+
+## ⚡ Prerequisites
+
+* 📦 Node.js (Latest LTS version)
+* 🗄️ MongoDB Database
+* ☁️ ImageKit Account
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-1. Clone the repository:
+1️⃣ **Clone the repository:**
 
 ```bash
 git clone <repository-url>
 cd imagekit-video-main
 ```
 
-2. Install dependencies:
+2️⃣ **Install dependencies:**
 
 ```bash
 npm install
 ```
 
-3. Configure environment variables:
+3️⃣ **Configure environment variables:**
 
 ```bash
 cp .env.example .env
 # Fill in the required variables
 ```
 
-4. Run the development server:
+4️⃣ **Run the development server:**
 
 ```bash
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+5️⃣ **Open in browser:**
+👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Environment Variables
+## 🔑 Environment Variables
 
 ```env
 # Database
@@ -95,24 +90,23 @@ NEXTAUTH_URL=
 NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY=
 IMAGEKIT_PRIVATE_KEY=
 IMAGEKIT_URL_ENDPOINT=
-
 ```
 
-> **Note:** Prefix frontend-exposed variables with `NEXT_PUBLIC_`.
+⚠️ **Note:** Prefix frontend-exposed variables with `NEXT_PUBLIC_`.
 
 ---
 
-## Available Scripts
+## 📜 Available Scripts
 
-* `npm run dev` - Start development server
-* `npm run build` - Build production application
-* `npm run start` - Start production server
-* `npm run lint` - Run ESLint
-* `npm run seed` - Seed the database
+* ▶️ `npm run dev` - Start development server
+* 🏗️ `npm run build` - Build production application
+* 🚀 `npm run start` - Start production server
+* ✅ `npm run lint` - Run ESLint
+* 🌱 `npm run seed` - Seed the database
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 ├── app/                  # Next.js app directory
@@ -128,4 +122,3 @@ IMAGEKIT_URL_ENDPOINT=
 ```
 
 ---
-
